@@ -1,4 +1,5 @@
 import "./App.css";
+import BookingForm from "./component/booking/BookingForm";
 import Footer from "./component/Footer";
 import Header from "./component/Header";
 import Main from "./component/Main";
@@ -8,9 +9,7 @@ function App() {
   return (
     <>
       <Nav />
-      <Header />
       <Main />
-      <Footer />
     </>
   );
 }
