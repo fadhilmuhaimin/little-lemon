@@ -1,8 +1,7 @@
 import "./App.css";
-import BookingForm from "./component/booking/BookingForm";
 import Footer from "./component/Footer";
-import Header from "./component/Header";
 import Main from "./component/Main";
+import Menu from "./component/Menu";
 import Nav from "./component/Nav";
 
 function App() {
@@ -10,6 +9,8 @@ function App() {
     <>
       <Nav />
       <Main />
+      <Menu />
+      <Footer />
     </>
   );
 }
